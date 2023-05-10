@@ -5,7 +5,7 @@ const About = () => {
   const {id,name}=useParams()
   return (
     <div>
-      <h1>This is About Page</h1>
+      <h1>This is About Pages</h1>
           {id} / {name}
     </div>
   )
