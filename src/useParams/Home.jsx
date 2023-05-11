@@ -5,6 +5,7 @@ const Home = () => {
   return (
     <div>
       <Link  to='/about'>About</Link>
+      <Link to='/contact'>Contact</Link>
       <h1>This is Home page</h1>
     </div>
   )
