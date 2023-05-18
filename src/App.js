@@ -6,6 +6,7 @@ import UseState1 from './Hooks/UseState/UseState1';
 import UserData from './Hooks/UseEffect/UserData';
 import UseEffectex1 from './Hooks/UseEffect/UseEffectex1';
 import NormalExample from './Hooks/UseEffect/NormalExample';
+import Grid from './ReactBootstrap/Grid';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <UseState1/> */}
       {/* <NormalExample/> */}
       {/* <UserData/> */}
-      <UseEffectex1/>
+      {/* <UseEffectex1/> */}
+      <Grid/>
       
     </div>
   );
