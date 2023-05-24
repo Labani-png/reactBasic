@@ -7,6 +7,9 @@ import UserData from './Hooks/UseEffect/UserData';
 import UseEffectex1 from './Hooks/UseEffect/UseEffectex1';
 import NormalExample from './Hooks/UseEffect/NormalExample';
 import Grid from './ReactBootstrap/Grid';
+import Example1 from './Hooks/useReducer/Example1';
+import Reducer1 from './Hooks/useReducer/Reducer1';
+import Memo from './Hooks/useMemo/Memo';
 
 function App() {
   return (
@@ -17,7 +20,11 @@ function App() {
       {/* <NormalExample/> */}
       {/* <UserData/> */}
       {/* <UseEffectex1/> */}
-      <Grid/>
+      {/* <Grid/> */}
+      {/* <Example1/> */}
+
+      {/* <Reducer1/> */}
+      <Memo/>
       
     </div>
   );
