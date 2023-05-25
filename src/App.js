@@ -10,6 +10,10 @@ import Grid from './ReactBootstrap/Grid';
 import Example1 from './Hooks/useReducer/Example1';
 import Reducer1 from './Hooks/useReducer/Reducer1';
 import Memo from './Hooks/useMemo/Memo';
+import Result from './Hooks/UseContexHooks/Result';
+import ContexState from './Hooks/UseContexHooks/Contex/ContexState';
+import AboutUser from './Hooks/UseContexHooks/AboutUser';
+import ContexRouting from './Hooks/UseContexHooks/ContexRouting';
 
 function App() {
   return (
@@ -24,7 +28,11 @@ function App() {
       {/* <Example1/> */}
 
       {/* <Reducer1/> */}
-      <Memo/>
+      {/* <Memo/> */}
+     
+      <ContexRouting/>
+     
+      
       
     </div>
   );
