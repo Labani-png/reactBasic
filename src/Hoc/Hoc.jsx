@@ -27,7 +27,7 @@ function HocOrange(props){
   return <h2 style={{background:'orange', color:'white',width:'300px'}}>Orange <props.countt/></h2>  
 }
 function HocYellow(props){
-  return <h2 style={{background:'yellow', color:'white',width:'300px'}}>Orange <props.updatenumber/></h2>  
+  return <h2 style={{background:'yellow', color:'white',width:'300px'}}>Yellow <props.updatenumber/></h2>  
 }
 
 

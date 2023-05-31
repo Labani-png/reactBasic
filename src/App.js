@@ -15,6 +15,9 @@ import ContexState from './Hooks/UseContexHooks/Contex/ContexState';
 import AboutUser from './Hooks/UseContexHooks/AboutUser';
 import ContexRouting from './Hooks/UseContexHooks/ContexRouting';
 import Hoc from './Hoc/Hoc';
+import HomeClass from './ClassComponents/HomeClass';
+import UpdateState from './ClassComponents/UpdateState';
+
 
 function App() {
   return (
@@ -32,7 +35,9 @@ function App() {
       {/* <Memo/> */}
      
       {/* <ContexRouting/> */}
-      <Hoc/>
+      {/* <Hoc/> */}
+      {/* <HomeClass/> */}
+      <UpdateState/>
      
       
       
