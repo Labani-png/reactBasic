@@ -14,6 +14,7 @@ import Result from './Hooks/UseContexHooks/Result';
 import ContexState from './Hooks/UseContexHooks/Contex/ContexState';
 import AboutUser from './Hooks/UseContexHooks/AboutUser';
 import ContexRouting from './Hooks/UseContexHooks/ContexRouting';
+import Hoc from './Hoc/Hoc';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <Reducer1/> */}
       {/* <Memo/> */}
      
-      <ContexRouting/>
+      {/* <ContexRouting/> */}
+      <Hoc/>
      
       
       

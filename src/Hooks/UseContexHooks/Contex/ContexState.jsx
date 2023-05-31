@@ -9,9 +9,11 @@ const state={
 }
   return (
     <>
+
     <CreateContexs.Provider value={state}>
         {children}
     </CreateContexs.Provider>
+    
     </>
   )
 }
