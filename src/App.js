@@ -17,6 +17,7 @@ import ContexRouting from './Hooks/UseContexHooks/ContexRouting';
 import Hoc from './Hoc/Hoc';
 import HomeClass from './ClassComponents/HomeClass';
 import UpdateState from './ClassComponents/UpdateState';
+import CrudRouting from './Crud/CrudRouting';
 
 
 function App() {
@@ -37,7 +38,8 @@ function App() {
       {/* <ContexRouting/> */}
       {/* <Hoc/> */}
       {/* <HomeClass/> */}
-      <UpdateState/>
+      {/* <UpdateState/> */}
+      <CrudRouting/>
      
       
       
