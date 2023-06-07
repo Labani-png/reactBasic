@@ -28,7 +28,8 @@ const reducer = (state, action) => {
   }
 }
 const Reducer1 = () => {
-  //state 3 define use reducer
+  //stape 3 define use reducer
+  
   const [state, dispatch] = useReducer(reducer, initialstate)
   //stape 4 call api
   useEffect(() => {

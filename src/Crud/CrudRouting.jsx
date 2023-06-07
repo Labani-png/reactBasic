@@ -4,6 +4,7 @@ import HomePage from './Components/HomePage'
 import AddUser from './Components/AddUser'
 import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import UpdateUser from './Components/UpdateUser';
 
 const CrudRouting = () => {
   return (
@@ -13,6 +14,7 @@ const CrudRouting = () => {
             <Routes>
                 <Route path='/' element={<HomePage/>}/>
                 <Route path='/add' element={<AddUser/>}/>
+                <Route path='/update/:id' element={<UpdateUser/>}/>
             </Routes>
         </Router>
     </>
